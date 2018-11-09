@@ -1,0 +1,39 @@
+{
+  "name": "@kirinnee/cc",
+  "version": "0.0.1",
+  "description": "Typescript library to help deal with array-based asynchronous calls",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "kirinnee",
+    "email": "kirinnee@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirinnee/tslib.cc.git"
+  },
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "deploy": "node script deploy",
+    "build": "node script wp dist",
+    "dev": "node script wp dist -w",
+    "patch": "node script publish patch",
+    "minor": "node script publish minor",
+    "major": "node script publish major"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@kirinnee/core": "^0.7.2",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.0",
+    "@types/uglifyjs-webpack-plugin": "^1.1.0",
+    "@types/webpack": "^4.4.17",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^5.2.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
