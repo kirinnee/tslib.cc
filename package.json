@@ -1,6 +1,6 @@
 {
   "name": "@kirinnee/cc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript library to help deal with array-based asynchronous calls",
   "main": "index.js",
   "license": "MIT",
